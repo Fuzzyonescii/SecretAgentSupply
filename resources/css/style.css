@@ -19,11 +19,42 @@ header img {
 }
 /*  New Arrival Section  */
 #new {
-  
+  height: 25rem;
+  background-image: URL('./media/moto.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
 }
 
-/*  NAV bar  */
+.new-arrival {
+  margin-top: 9rem;
+  width: 20rem;
+}
 
+.new-arrival p {
+  left: 3rem;
+  font-weight: bold;
+}
+
+.new-arrival .one p {
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.new-arrival .two p {
+  margin-top: 0.25rem;
+  font-size: 2rem;
+}
+/*  NAV bar  */
+nav {
+  background-color: firebrick;
+}
+
+nav a {
+    margin: 0.75rem auto;
+    color: white;
+}
 
 /*  Assorted Items Section  */
 #items {
